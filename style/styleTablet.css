@@ -1,0 +1,506 @@
+/*Tablet View */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .logo {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 50px;
+    margin-top: 24px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 50px;
+    top: 18px;
+  }
+
+  .hero {
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    left: 0px;
+    top: 0px;
+    background: #f1f3ff;
+  }
+
+  /* Awal Intro & button  */
+  .intro h1 {
+    position: absolute;
+    width: 568px;
+    height: 108px;
+    left: 50px;
+    top: 100px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+  }
+
+  .intro h6 {
+    position: absolute;
+    width: 468px;
+    height: 60px;
+    left: 50px;
+    top: 215px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .intro button {
+    box-sizing: border-box;
+    border-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    left: 50px;
+    top: 290px;
+
+    background: #5cb85f;
+    border-radius: 2px;
+  }
+
+  .intro p {
+    width: 116px;
+    height: 20px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  /* Akhir Intro & button  */
+
+  /* Awal Mobil */
+  .mobil {
+    position: absolute;
+    width: 577px;
+    height: 333px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 16px;
+    right: 16px;
+    top: 320px;
+  }
+
+  /* Akhir Mobil */
+
+  /* Awal Section Our Service*/
+  .our-service {
+    position: absolute;
+    height: 194.97px;
+    top: 717px;
+  }
+
+  .img_ourservice {
+    margin-left: 90px;
+  }
+
+  .container-our {
+    position: absolute;
+    width: 100%;
+    height: 199px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 16px;
+    right: 16px;
+    top: 458px;
+  }
+
+  .head-our h1 {
+    width: 500px;
+    height: 72px;
+
+    margin-top: 15px;
+    margin-left: 90px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 36px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .head-our h6 {
+    width: 500px;
+    height: 100px;
+
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 16px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .list-our {
+    width: 500px;
+  }
+
+  .list-our img {
+    margin-right: 20px;
+  }
+
+  .list-our p {
+    height: 20px;
+
+    margin-top: 20px;
+    margin-left: 90px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 20px;
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+  /* Awal Section Our Service*/
+
+  /* Awal Section Why Us? */
+  .why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 328px;
+    height: 792px;
+    left: 16px;
+    top: 1713px;
+  }
+
+  .container-item-whyus1,
+  .container-item-whyus2,
+  .container-item-whyus3,
+  .container-item-whyus4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+
+    width: 328px;
+    height: 176px;
+
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .container-item-whyus1 h6,
+  .container-item-whyus2 h6,
+  .container-item-whyus3 h6,
+  .container-item-whyus4 h6 {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .container-item-whyus1 p,
+  .container-item-whyus2 p,
+  .container-item-whyus3 p,
+  .container-item-whyus4 p {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Akhir Section Why Us? */
+
+  /* Awal Section Testimonial */
+  .testimonial {
+    width: 100%;
+    position: absolute;
+    height: 438px;
+    top: 2640px;
+  }
+
+  .testi-text {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .testi-textp {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #000000;
+  }
+  .container-testimonial {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  .mySwiper {
+    max-width: 1100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    text-align: center;
+    background-color: #f1f3ff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  }
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+  }
+  .card img {
+    width: 30%;
+    align-self: center;
+    border-radius: 50%;
+    margin-top: -70px;
+  }
+  h3,
+  h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    color: #222222;
+  }
+  h3 {
+    text-align: left;
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #0096ff;
+  }
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    color: #0096ff;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 32px;
+  }
+  .review i {
+    color: orange;
+  }
+
+  /* Akhir Section Testimonial */
+
+  /* Awal Section Banner Biru */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 64px 270px;
+    gap: 32px;
+
+    position: absolute;
+    height: 400px;
+    left: 16px;
+    top: 2953px;
+
+    background: #0d28a6;
+    border-radius: 13px;
+  }
+
+  .banner h1 {
+    width: 312px;
+    height: 80px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .banner p {
+    width: 312px;
+    height: s0px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .sewa-mobil-banner {
+    box-sizing: border-box;
+    border-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    width: 140px;
+    height: 36px;
+
+    background: #5cb85f;
+    border-radius: 2px;
+  }
+
+  .sewa-mobil-banner p {
+    width: 116px;
+    height: 20px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  /* Akhir Section Banner Biru */
+
+  /* Awal Section FAQ */
+  .faq {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 3630px;
+  }
+
+  .faq h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .faq p {
+    display: flex;
+    justify-content: center;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* Akhir Section FAQ */
+
+  /* Awal Section Footer */
+  .footer {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 4050px;
+  }
+  /* Akhir Section Footer */
+}
+/* Akhir Tablet View */
